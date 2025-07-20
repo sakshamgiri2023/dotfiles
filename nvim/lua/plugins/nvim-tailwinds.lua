@@ -1,0 +1,27 @@
+return {
+  "tailwindcss/nvim-tailwindcss",
+  enabled = false,
+  lazy = false, -- load immediately; adjust as you wish
+  ft = { -- filetypes this plugin should attach to
+    "html",
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "svelte",
+    "astro",
+    "css",
+    "scss",
+    "sass",
+    "php",
+    "heex",
+    "eelixir",
+    "elixir",
+    "twig",
+    "hbs",
+    "gohtmltmpl",
+    "templ",
+  },
+  opts = {},
+}
